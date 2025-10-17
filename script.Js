@@ -64,3 +64,23 @@
 
 // console.log(today)
 
+// var now = new Date();
+// var hour = now.getHours();
+// var mins = now.getMinutes();
+// var sec = now.getSeconds();
+
+
+// switch(true){
+//     case (hour < 12):
+//     console.log("Good Morning");
+//     break;
+
+//     case (hour < 18):
+//     console.log("Good Afetrnoon")
+//     break;
+
+//     default:
+//         console.log("Good Evening");
+//         break;
+// }
+// console.log(hour + " : " + mins + " : " + sec)
