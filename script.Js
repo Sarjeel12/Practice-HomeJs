@@ -84,3 +84,74 @@
 //         break;
 // }
 // console.log(hour + " : " + mins + " : " + sec)
+
+// Qno1 Write a function that displays current date & time in your browser?
+
+// function showDateTime() {
+//     var now = new Date();                
+//     var current = now.toString();        
+//     console.log(current);                
+//     alert("Current Date & Time:\n" + current); 
+// }
+
+// showDateTime()
+
+
+// Qno2 Write a function that takes first & last name and then it greets the user using his full name?
+
+// function greetUser() {
+//     var firstName = prompt("Enter your first name:");
+//     var lastName = prompt("Enter your last name:");
+
+//     var fullName = firstName + " " + lastName;
+//     var message = "Hello, " + fullName + "! Welcome.";
+
+//     console.log(message);            
+// }
+// greetUser()
+
+
+// Qno3 Write a function that adds two numbers (input by user) and returns the sum of two numbers?
+
+// function addNumbers() {
+//     var num1 = +prompt("Enter first number:");   
+//     var num2 = +prompt("Enter second number:");
+
+//     var sum = num1 + num2;   
+
+//     console.log("Sum = " + sum);   
+//     return sum;   
+// }
+
+// addNumbers()
+
+// Qno4 Write a function that takes three inputs — num1, num2, and operator — then computes and shows the result.
+
+// function calculator() {
+//   var num1 = +prompt("Enter first number:");
+//   var operator = prompt("Enter operator (+, -, *, /, %):");
+//   var num2 = +prompt("Enter second number:");
+
+//   var result;
+
+//   if (operator === "+") {
+//     result = num1 + num2;
+//   } else if (operator === "-") {
+//     result = num1 - num2;
+//   } else if (operator === "*") {
+//     result = num1 * num2;
+//   } else if (operator === "/") {
+//     result = num1 / num2;
+//   } else if (operator === "%") {
+//     result = num1 % num2;
+//   } else {
+//     alert("Invalid operator!");
+//     return;
+//   }
+
+//   console.log(num1 + " " + operator + " " + num2 + " = " + result);
+//   alert("Result: " + result);
+//   return result;
+// }
+
+// calculator()
