@@ -176,7 +176,7 @@
 //     alert("enter correct operator")
 //    }
 
-   
+
 //   } else {
 //     alert("Please enter only number");
 //   }
@@ -219,3 +219,169 @@
 
 // getInput();
 
+// Qno6
+// function factorial() {
+//     var input = prompt("Enter a num to find factorial")
+//     if(input === null) return;
+
+//     var num = parseInt(input);
+
+//     if(isNaN(num) || num < 0){
+//         alert("Please enter a non-negative integer!");
+//         return;
+//     }
+
+//     var result = 1;
+//     for(var i = 1; i <= num; i++){
+//         result = result * i;
+//     }
+
+//     alert("Factorial of " + num + " is: " + result);
+//     return result;
+// }
+// factorial()
+
+// Qno7
+
+// function showCounting(){
+//     var startNo = parseInt(prompt("Enter 1st Number "))
+//     var lastNo = parseInt(prompt("Enter Ending Number "))
+
+//     if(isNaN(startNo) || isNaN(lastNo)){
+//         alert("Plz Enter valid num")
+//         return;
+//     }
+
+//     if(startNo > lastNo){
+//         alert("Start number should be smaller than end number!");
+//         return;
+//     }
+//     for(var i = startNo; i <= lastNo; i++){
+//         document.writeln(i + "<br>");
+//     }
+// }showCounting()
+
+// Qno8
+// function calculateHypotenuse() {
+//   var base = parseFloat(prompt("Enter base of triangle:"));
+//   var perp = parseFloat(prompt("Enter perpendicular of triangle:"));
+
+//   if (isNaN(base) || isNaN(perp)) {
+//     alert("Please enter valid numbers!");
+//     return;
+//   }
+
+//   function calculateSquare(num) {
+//     return num * num;
+//   }
+
+//   var baseSquare = calculateSquare(base);
+//   var perpSquare = calculateSquare(perp);
+
+//   var hypoSquare = baseSquare + perpSquare;
+//   var hypotenuse = Math.sqrt(hypoSquare); 
+
+
+//   alert(
+//     "Base: " + base +
+//     "\nPerpendicular: " + perp +
+//     "\nHypotenuse: " + hypotenuse
+//   );
+
+//   console.log("Hypotenuse =", hypotenuse);
+//   return hypotenuse;
+// }
+
+
+// calculateHypotenuse();
+
+// Qno9
+
+// function rectangleArea(width, height) {
+//   return width * height;
+// }
+
+// let userWidth = parseFloat(prompt("Enter width of rectangle:"));
+// let userHeight = parseFloat(prompt("Enter height of rectangle:"));
+
+
+// if (isNaN(userWidth) || isNaN(userHeight)) {
+//   alert("Please enter valid numbers!");
+// } else {
+
+//   let area = rectangleArea(userWidth, userHeight);
+
+//   alert(`The area of rectangle is: ${area}`);
+//   console.log("Rectangle Area =", area);
+// }
+// rectangleArea()
+
+// Qno10
+// function isPalindrome(word) {
+//     word = word.toLowerCase();
+//     word = word.replace(/\s/g, "");
+
+//     let reversed = word.split("").reverse().join("");
+
+//     return word === reversed
+// }
+// console.log(isPalindrome("Madam"));
+// console.log(isPalindrome("Hello"));
+// console.log(isPalindrome("nurses run")); 
+
+// Qno11
+
+// function capitalizeFirstLetter(sentence) {
+  
+//   let words = sentence.split(" "); 
+
+
+//   for (let i = 0; i < words.length; i++) {
+//     words[i] = words[i][0].toUpperCase() + words[i].slice(1);
+//   }
+
+//   return words.join(" "); 
+// }
+
+// let example = 'the quick brown fox';
+// console.log(capitalizeFirstLetter(example)); 
+
+// Qno12
+// function findLongestWord(sentence) {
+//   let words = sentence.split(" "); 
+
+
+//   let longest = words[0];
+
+//   for (let i = 1; i < words.length; i++) {
+//     if (words[i].length > longest.length) {
+//       longest = words[i]; 
+//     }
+//   }
+
+ 
+//   return longest;
+// }
+
+// let example = 'Web Dev Tutorial';
+// console.log(findLongestWord(example)); 
+
+// Qno13
+// function countLetter(string, letter) {
+//   let count = 0; 
+
+//   for (let i = 0; i < string.length; i++) {
+//     if (string[i] === letter) {
+//       count++; 
+//     }
+//   }
+
+//   return count; 
+// }
+
+
+// let exampleString = prompt("enter string");
+// let exampleLetter = prompt("enter letter");
+// console.log(countLetter(exampleString, exampleLetter)); 
+
+// Qno14
